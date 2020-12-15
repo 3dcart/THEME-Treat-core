@@ -18,7 +18,8 @@ footer {
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    color: #[body_text_color];
+    font-size: [base_font_size]px;
     line-height: 1.5;
 }
 h1 {
@@ -108,29 +109,29 @@ div.searchlight-balloon {
 .btn-default,
 .btn-primary:focus, 
 .btn-primary:active:focus {
-    border-color: #000;
-    background-color: #fff;
-    color: #000;
+    border-color: #[primary-btn-border];
+    background-color: #[primary-btn-bg];
+    color: #[primary-btn-text];
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:hover:focus,
 .btn-default.focus {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #[primary-btn-text-hover];
+    background-color: #[primary-btn-bg-hover];
+    border-color: #[primary-btn-border-hover];
 }
 .btn-default.btn-inverse,
 .btn-primary {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #[secondary-btn-text];
+    background-color: #[secondary-btn-bg];
+    border-color: #[secondary-btn-border];
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #[secondary-btn-text-hover];
+    background-color: #[secondary-btn-bg-hover];
+    border-color: #[secondary-btn-border-hover];
     opacity: 0.8;
 }
 
@@ -144,18 +145,18 @@ div.searchlight-balloon {
     min-height: auto;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #000;
+    color: #[navigation-text-color];
     font-weight: 300;
     letter-spacing: 0.025em;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: [navigation-font-size]px;
     line-height: 18px;
     min-height: auto;
     padding: 0 13px;
 }
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:focus {
-    color: #000;
+    color: #[navigation-text-hover-color];
     text-decoration: underline;
 }
 .dropdown-menu > li > a {
@@ -240,7 +241,7 @@ font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 .top-nav {
-    background: #004781;
+    background: #[topnav_bg];
 }
 .top-nav ul {
     padding: 22px 0;
@@ -269,7 +270,7 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
 }
 .top-nav ul li a {
-    color: #fff;
+    color: #[top_nav-text-color];
     font-weight: 200;
     font-size: 15px;
     letter-spacing: 1px;
@@ -288,8 +289,8 @@ font-family: 'Poppins', sans-serif;
 }
 .useraccount  ul li a {
     font-weight: 300;
-    color: #000;
-    font-size: 17px;
+    color: #[navigation-text-color];
+    font-size: [navigation-font-size]px;
     text-transform: uppercase;
     padding: 0 13px;
 }
@@ -365,10 +366,9 @@ span.cart-count {
     font-weight: 500;
 }
 .site-footer {
-    background-color: #fff;
+    background-color: #[footer-bg];
     padding: 55px 0 0;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
+    color: #[footer-text-color];
 }
 
 ul.extrapages li {
@@ -376,7 +376,7 @@ ul.extrapages li {
     margin: 0 0 15px;
 }
 ul.extrapages li a {
-    color: #000;
+    color: #[footer-links-color];
     font-size: 16px;
     font-weight: 300;
 }
@@ -408,7 +408,7 @@ ul.extrapages li a {
     color: #000 !important;
 }
 .mailing-list-block {
-    background: #004781;
+    background: #[primary-accent];
     padding: 60px 0;
 }
 .mailist-box {
@@ -422,7 +422,7 @@ ul.extrapages li a {
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 200;
-    color: #fff;
+    color: #[mailing-text];
 }
 .mailinglist-form {
     position: relative;
@@ -430,7 +430,6 @@ ul.extrapages li a {
 .mailinglist-input.form-control {
     background-color: #fff;
     border-color: #cdcdcd;
-    max-width: 757px;
     color: #000;
     float: none;
     width: 100%;
@@ -438,9 +437,9 @@ ul.extrapages li a {
     padding: 12px 172px 12px 12px;
 }
 .mailinglist-submit {
-    background-color: #ff4b14;
+    background-color: #[secondary-accent] !important;
     color: #fff !important;
-    border-color: #ff4b14 !important;
+    border-color: #[secondary-accent] !important;
     float: none;
     width: 160px;
     position: absolute;
@@ -452,7 +451,7 @@ ul.extrapages li a {
 }
 .btn-default.mailinglist-submit:hover, 
 .btn-default.mailinglist-submit:focus {
-    opacity: 0.6;
+    opacity: 0.9;
 }
 .mailinglist-response {
     display: none;
@@ -475,7 +474,7 @@ ul.extrapages li a {
     line-height: 13px;
     font-weight: 300;
     margin-left: 3px;
-    color: #ccc;
+    color: #[mailing-text];
     cursor: pointer;
 }
 
@@ -505,7 +504,7 @@ ul.social-icons li.social-icons-label {
 .social-icons {
 }
 .social-icons li a {
-    color: #4dafff;
+    color: #[tertiary-accent];
     background-color: transparent;
     width: 32px;
     height: 32px;
@@ -527,7 +526,7 @@ ul.social-icons li.social-icons-label {
 }
 */
 .product-item .reviews-stars {
-    color: gold;
+    color: #[stars-active-color];
 }
 
 .reviews-stars:before {
@@ -575,7 +574,7 @@ ul.social-icons li.social-icons-label {
     text-decoration: line-through;
 }
 .sale-price {
-    color: #d04b64;
+    color: #[sale-color];
 }
 del.original-price {
     font-weight: 500;
@@ -596,7 +595,7 @@ span.freeshipping {
 .product-item .img {
     /* min-height: 304px; */
     position: relative;
-    border: 2px solid #ff4b14;
+    border: 2px solid #[secondary-accent];
     background-color: #fff;
 }
 .product-item .img a {
@@ -616,7 +615,7 @@ span.freeshipping {
     border: none;
     padding: 0;
     min-width: auto;
-    color: #4dafff;
+    color: #[tertiary-accent];
     font-weight: 500;
     font-size: 16px;
 }
@@ -649,7 +648,7 @@ span.freeshipping {
 }
 
 .products-section h2 {
-    font-size: 34px;
+    font-size: [heading_base_size]px;
     line-height: 1;
     font-weight: 200;
     text-transform: capitalize;
