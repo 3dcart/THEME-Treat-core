@@ -18,7 +18,8 @@ footer {
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    color: #000000;
+    font-size: 14px;
     line-height: 1.5;
 }
 h1 {
@@ -108,29 +109,29 @@ div.searchlight-balloon {
 .btn-default,
 .btn-primary:focus, 
 .btn-primary:active:focus {
-    border-color: #000;
-    background-color: #fff;
-    color: #000;
+    border-color: #ff5835;
+    background-color: #ffffff;
+    color: #000000;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:hover:focus,
 .btn-default.focus {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #ffffff;
+    background-color: #ff5835;
+    border-color: #ff5835;
 }
 .btn-default.btn-inverse,
 .btn-primary {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #ffffff;
+    background-color: #0F1D26;
+    border-color: #0F1D26;
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
+    color: #ffffff;
+    background-color: #0F1D26;
+    border-color: #0F1D26;
     opacity: 0.8;
 }
 
@@ -144,7 +145,7 @@ div.searchlight-balloon {
     min-height: auto;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #000;
+    color: #0F1D26;
     font-weight: 300;
     letter-spacing: 0.025em;
     text-transform: uppercase;
@@ -155,7 +156,7 @@ div.searchlight-balloon {
 }
 .navbar-inverse .navbar-nav > li > a:hover, 
 .navbar-inverse .navbar-nav > li > a:focus {
-    color: #000;
+    color: #000000;
     text-decoration: underline;
 }
 .dropdown-menu > li > a {
@@ -240,7 +241,7 @@ font-family: 'Poppins', sans-serif;
     opacity: 0.6;
 }
 .top-nav {
-    background: #004781;
+    background: #0F1D26;
 }
 .top-nav ul {
     padding: 22px 0;
@@ -269,7 +270,7 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
 }
 .top-nav ul li a {
-    color: #fff;
+    color: #ffffff;
     font-weight: 200;
     font-size: 15px;
     letter-spacing: 1px;
@@ -288,7 +289,7 @@ font-family: 'Poppins', sans-serif;
 }
 .useraccount  ul li a {
     font-weight: 300;
-    color: #000;
+    color: #0F1D26;
     font-size: 17px;
     text-transform: uppercase;
     padding: 0 13px;
@@ -365,10 +366,9 @@ span.cart-count {
     font-weight: 500;
 }
 .site-footer {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 55px 0 0;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
+    color: #4e4e4e;
 }
 
 ul.extrapages li {
@@ -376,7 +376,7 @@ ul.extrapages li {
     margin: 0 0 15px;
 }
 ul.extrapages li a {
-    color: #000;
+    color: #4e4e4e;
     font-size: 16px;
     font-weight: 300;
 }
@@ -422,7 +422,7 @@ ul.extrapages li a {
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 200;
-    color: #fff;
+    color: #ffffff;
 }
 .mailinglist-form {
     position: relative;
@@ -430,7 +430,6 @@ ul.extrapages li a {
 .mailinglist-input.form-control {
     background-color: #fff;
     border-color: #cdcdcd;
-    max-width: 757px;
     color: #000;
     float: none;
     width: 100%;
@@ -438,7 +437,7 @@ ul.extrapages li a {
     padding: 12px 172px 12px 12px;
 }
 .mailinglist-submit {
-    background-color: #ff4b14;
+    background-color: #ff4b14 !important;
     color: #fff !important;
     border-color: #ff4b14 !important;
     float: none;
@@ -452,7 +451,7 @@ ul.extrapages li a {
 }
 .btn-default.mailinglist-submit:hover, 
 .btn-default.mailinglist-submit:focus {
-    opacity: 0.6;
+    opacity: 0.9;
 }
 .mailinglist-response {
     display: none;
@@ -475,7 +474,7 @@ ul.extrapages li a {
     line-height: 13px;
     font-weight: 300;
     margin-left: 3px;
-    color: #ccc;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -527,7 +526,7 @@ ul.social-icons li.social-icons-label {
 }
 */
 .product-item .reviews-stars {
-    color: gold;
+    color: #ffd700;
 }
 
 .reviews-stars:before {
